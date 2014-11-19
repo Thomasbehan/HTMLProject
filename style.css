@@ -50,7 +50,7 @@ p{
     left: 0;
     border: 0;
     z-index: 2;
-    width: 100%;
+    width: auto;
     height: 100%;
 	height:auto;
 }
@@ -89,50 +89,30 @@ h2{
 	width:100%;
 	height:600px;
 }
-#gps {
+#div6 {
 	width:100%;
 	height:600px;
 	background:lightgray;
 	
 }
-#gpsheading{
-	margin-top:20px;
-	margin:0 auto;
-	text-align:center;
-	font-family: "Tahoma", Times, serif;
-	font-size:45px;
-	
-}
-#gpsub{
-	margin:0 auto;
-	text-align:center;
-	font-family: "Tahoma", Times, serif;
-	font-size:25px;
-	margin-top:5px;
-}
-#nm {
+
+#div2 {
 	width:100%;
 	height:600px;
 	background-color:lightgray;
 }
-#ntv {
+#div3 {
 	width:100%;
 	height:600px;
 	background-color:white;
 }
-#gp {
+#div4 {
 	width:100%;
 	height:600px;
 	background-color:lightgray;
 	color:black;
 }
-#nsccont{
-	Float:right;
-	width:auto;
-	height:auto;
-	margin-left:20px;
-}
-#nsc {
+#div5 {
 	width:100%;
 	height:600px;
 	background-color:white;
