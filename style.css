@@ -74,7 +74,11 @@ h2{
 	width:100%;
 	position: static;
 	text-align:center;
+<<<<<<< HEAD
 	background: rgba(255, 255, 255, 0.9);
+=======
+	background: rgb(255, 255, 255);
+>>>>>>> e78ab142b919cb9080cd15e2443239bef3508302
 }
 #content {
 	position:inherit;
@@ -92,14 +96,24 @@ h2{
 #div6 {
 	width:100%;
 	height:600px;
+<<<<<<< HEAD
 	background:lightgray;
+=======
+	color:white;
+	background-color:rgb(1,2,129);
+>>>>>>> e78ab142b919cb9080cd15e2443239bef3508302
 	
 }
 
 #div2 {
 	width:100%;
 	height:600px;
+<<<<<<< HEAD
 	background-color:lightgray;
+=======
+	color:white;
+	background-color:rgb(1,2,129);
+>>>>>>> e78ab142b919cb9080cd15e2443239bef3508302
 }
 #div3 {
 	width:100%;
@@ -109,8 +123,13 @@ h2{
 #div4 {
 	width:100%;
 	height:600px;
+<<<<<<< HEAD
 	background-color:lightgray;
 	color:black;
+=======
+	color:white;
+	background-color:rgb(1,2,129);
+>>>>>>> e78ab142b919cb9080cd15e2443239bef3508302
 }
 #div5 {
 	width:100%;
@@ -120,7 +139,12 @@ h2{
 #footer{
 	width:100%;
 	height:20px;
+<<<<<<< HEAD
 	background-color:lightgray;
+=======
+	color:white;
+	background-color:rgb(1,2,129);
+>>>>>>> e78ab142b919cb9080cd15e2443239bef3508302
 }
 #logo2{
 	position: absolute;
@@ -129,8 +153,13 @@ h2{
 #logo {
 	float:left;
 	font-size:45px;
+<<<<<<< HEAD
 	font-family: "Tahoma", Times, serif;
 	color:black;
+=======
+	font-family: "Comic Sans MS", Times, serif;
+	color:rgb(1,2,129);
+>>>>>>> e78ab142b919cb9080cd15e2443239bef3508302
 	text-decoration:none;
 }
 #copyright {
