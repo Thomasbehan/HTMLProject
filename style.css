@@ -74,7 +74,7 @@ h2{
 	width:100%;
 	position: static;
 	text-align:center;
-	background: rgba(255, 255, 255, 0.9);
+	background: rgb(255, 255, 255);
 }
 #content {
 	position:inherit;
@@ -92,14 +92,16 @@ h2{
 #div6 {
 	width:100%;
 	height:600px;
-	background:lightgray;
+	color:white;
+	background-color:rgb(1,2,129);
 	
 }
 
 #div2 {
 	width:100%;
 	height:600px;
-	background-color:lightgray;
+	color:white;
+	background-color:rgb(1,2,129);
 }
 #div3 {
 	width:100%;
@@ -109,8 +111,8 @@ h2{
 #div4 {
 	width:100%;
 	height:600px;
-	background-color:lightgray;
-	color:black;
+	color:white;
+	background-color:rgb(1,2,129);
 }
 #div5 {
 	width:100%;
@@ -120,7 +122,8 @@ h2{
 #footer{
 	width:100%;
 	height:20px;
-	background-color:lightgray;
+	color:white;
+	background-color:rgb(1,2,129);
 }
 #logo2{
 	position: absolute;
@@ -129,8 +132,8 @@ h2{
 #logo {
 	float:left;
 	font-size:45px;
-	font-family: "Tahoma", Times, serif;
-	color:black;
+	font-family: "Comic Sans MS", Times, serif;
+	color:rgb(1,2,129);
 	text-decoration:none;
 }
 #copyright {
