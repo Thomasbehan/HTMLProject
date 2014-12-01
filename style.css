@@ -123,6 +123,11 @@ color:black;
 	color:black;
 	background:lightblue;
 }
+.volimg{
+	float:center;
+	margin-right:3%;
+	width:15%;
+}
 #div4 {
 	width:100%;
 	height:600px;
