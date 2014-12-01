@@ -124,13 +124,17 @@ color:black;
 #div4 {
 	width:100%;
 	height:600px;
-	
+	text-align:center;
 	color:black;
 	background-color:white;
 
 }
+h3,h1{
+	color:rgb(1,2,129);
+}
 .centerimg{
 	margin:0 auto;
+	
 }
 #div5 {
 	width:100%;
