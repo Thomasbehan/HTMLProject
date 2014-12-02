@@ -15,16 +15,7 @@
 	</head>
 	<body>
 	
-			<div id="fb-root"></div>
-					<script>
-						(function(d, s, id) {
-						  var js, fjs = d.getElementsByTagName(s)[0];
-						  if (d.getElementById(id)) return;
-						  js = d.createElement(s); js.id = id;
-						  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-						  fjs.parentNode.insertBefore(js, fjs);
-						}(document, 'script', 'facebook-jssdk'));
-					</script>
+			
 				<a href="#bodyDummy" class="scrollToTop"></a>
 				
 					<video id="bgVideo" autoplay loop muted>
@@ -52,7 +43,7 @@
 									<li><a href="#About">About Us</a></li>
 									<li><a href="#div2">Staff</a></li>
 									<li><a href="#div6">Support Links</a></li>
-									<li><a href="#div7">Contact Us</a></li>
+
 									<li>
 										<a href="#">More<span class="caret"></span></a>
 										<div id="drop">
@@ -65,6 +56,9 @@
 											</ul>
 										</div>
 									</li>
+
+									<li><a href="#div7">Contact Us</a></li>
+
 								</ul>
 							</nav>
 							<img id="menu-icon" src="images/menu-icon.png" style="height:40px;position:absolute;right:0px;margin-top:-50px;"></img>
@@ -116,9 +110,35 @@
 
 					</div>
 					
-
+					<div id = "div6">
+						<h1>Support Links</h1>
+					</div>
+					
+					<div id = "div7">
+						<h1>Contact Us</h1>
+						<form action="info@stmonicas.ie" method="post">
+							<div>
+								<label for="name">Your Full Name:</label>
+								<input type="text" id="name" />
+							</div>
+							<div>
+								<label for="mail">Your E-mail Address:</label>
+								<input type="email" id="mail" />
+							</div>
+							<div>
+								<label for="msg">Your Message:</label>
+								<textarea id="msg"></textarea>
+							</div>
+							
+							<div class="button">
+								<button type="submit">Send your message</button>
+							</div>
+						</form>		
+						
+					</div>
+					
 					<div id = "footer">
-						<p id ="copyright">Copyright St Monicas &copy; 2014-2015. All Rights Reserved. Designed by Thomas Behan and Kevin Maher</p>
+						<p id ="copyright">Copyright St. Monica's Youth Resource Centre &copy; 2014-2015. All Rights Reserved. Designed by <a href="">Thomas Behan</a>and Kevin Maher</p>
 				</div>
 		</div>
 
