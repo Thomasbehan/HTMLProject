@@ -413,14 +413,7 @@ nav {
 		
 		/*Smaller Screens*/
 @media handheld, only screen and (max-width: 1000px) {
-#menu-icon {
-		position:absolute;
-		z-index:55;
-		display:visible;
-		height:auto;
-		padding:0;
-		margin:0;
-	}
+
 #bgVideo{
     position: absolute;
     top: 0;
