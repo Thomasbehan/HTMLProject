@@ -50,8 +50,6 @@ input, textarea {
 
     /* To give the same size to all text field */
     width: 80%;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 
     /* To harmonize the look & feel of text field border */
     border: 1px solid #999;
@@ -497,6 +495,11 @@ ul {
 	}
 
 	nav:hover ul {
+		margin-top:-10px;
+		display: block;
+		z-index:5000;
+	}
+	#navbar:hover ul{
 		margin-top:-10px;
 		display: block;
 		z-index:5000;
