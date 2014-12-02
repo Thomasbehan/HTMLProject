@@ -12,6 +12,19 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
 		
+		<!-- bjqs.css contains the *essential* css needed for the slider to work -->
+		<link rel="stylesheet" href="bjqs.css">
+
+		<!-- some pretty fonts for this demo page - not required for the slider -->
+		<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300' rel='stylesheet' type='text/css'> 
+
+		<!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
+		<link rel="stylesheet" href="demo.css">
+
+		<!-- load jQuery and the plugin -->
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="js/bjqs-1.3.min.js"></script>
+		
 	</head>
 	<body>
 	
@@ -68,8 +81,7 @@
 					</div>
 				<div id = "content">
 					<div id = "About">
-						<h1>St Monica's</h1>
-							<img class="centerimg" src="images/Volunteer.png" style="width:45%;"></img>
+						<h1>St. Monica's</h1>
 							<h3>About Us</h3>
 								<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu nulla nibh. Ut enim urna, malesuada in facilisis et, sodales sed felis. Maecenas sodales vel sapien in molestie. Sed vulputate maximus tempor. Donec facilisis, leo ut vehicula vehicula, erat lacus bibendum diam, a vehicula nulla libero ut sapien. Ut dapibus sapien lacus, ac convallis ipsum condimentum sit amet. Pellentesque nec maximus orci. In rutrum sapien massa, et laoreet justo dapibus vel. Vestibulum tempor, turpis a imperdiet mattis, nunc magna euismod elit, quis tempus ligula lectus tempor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -116,6 +128,22 @@
 					
 					<div id = "div5">
 						<h1>Gallery</h1>
+							<!--JQuery Slider-->
+							<!--<h2>Event Slideshow</h2>-->
+
+								  <!--  Outer wrapper for presentation only, this can be anything you like -->
+								  <div id="banner-slide">
+
+									<!-- start Basic Jquery Slider -->
+									<ul class="bjqs">
+									  <li><img src="img/banner01.jpg" title="Chair"></li>
+									  <li><img src="img/banner02.jpg" title="Mirror"></li>
+									  <li><img src="img/banner03.jpg" title="Island"></li>
+									</ul>
+									<!-- end Basic jQuery Slider -->
+
+								  </div>
+								  <!-- End outer wrapper -->
 
 					</div>
 				
@@ -152,6 +180,23 @@
 					<div id = "footer">
 						<p id ="copyright">Copyright St. Monica's Youth Resource Centre &copy; 2014-2015. All Rights Reserved. Designed by <a href="https://www.linkedin.com/profile/view?id=345433743">Thomas Behan </a>and <a href="https://www.linkedin.com/profile/view?id=375310149">Kevin Maher.</a></p>
 				</div>
+				
+				<!-- attach the plug-in to the slider parent element and adjust the settings as required -->
+					  <script class="secret-source">
+						jQuery(document).ready(function($) {
+						  
+						  $('#banner-slide').bjqs({
+							animtype      : 'slide',
+							height        : 480,
+							width         : 1000,
+							prevText: 'u',               // Prev directionNav text
+							nextText: 'u',               // Next directionNav text
+							responsive    : true,
+							randomstart   : true
+						  });
+						  
+						});
+					  </script>
 		</div>
 
 </html>

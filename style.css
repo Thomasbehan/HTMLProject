@@ -18,6 +18,11 @@ body {
     height: 100%;
 	height:auto;
 }
+
+#banner-slide{
+	margin:0 auto;
+	display:block;
+}
 /*contact us form css */
 form {
 
@@ -574,4 +579,5 @@ ul {
 		margin:0;
 	}
 }
+
 	
