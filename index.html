@@ -5,116 +5,111 @@
 <html>
 	<head>
 		
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
 		<title>St.Monicas | Youth Resource Centre</title>
-		
-		
+		<!--google api js-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!--favourites icon-->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<!--main css-->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!--bootstrap css-->
+		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">		
+		<!--smooth scroll js-->
 		<script type="text/javascript" src="js/scroll.js"></script>
-		
-		<!-- bjqs.css contains the *essential* css needed for the slider to work -->
-		<link rel="stylesheet" href="bjqs.css">
-
-
-		<!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
-		<link rel="stylesheet" href="demo.css">
-
-		<!-- load jQuery and the plugin -->
-		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-		<script src="js/bjqs-1.3.min.js"></script>
-		
+		<!--gallery js-->
+			<!-- bjqs.css contains the *essential* css needed for the slider to work -->
+			<link rel="stylesheet" href="bjqs.css">
+			<!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
+			<link rel="stylesheet" href="demo.css">
+			<!-- load jQuery and the plugin -->
+			<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+			<script src="js/bjqs-1.3.min.js"></script>
 	
 	</head>
 	<body>
-	
-			
-				<a href="#bodyDummy" class="scrollToTop"></a>
-				
-					<video id="bgVideo" autoplay loop muted>
-						<source src="video/12.webm" type="video/webm"/>  
-						<source src="video/12.mp4" type="video/mp4"/>  
-					</video>
-				<!--This image stretches exactly to the browser width/height and lies behind the video-->
-						
-				<div id="bodyDummy">
+		
+		<!--scrolling-->
+		<a href="#bodyDummy" class="scrollToTop"></a>
+		
+		<!--background video-->
+		<video id="bgVideo" autoplay loop muted>
+			<source src="video/12.webm" type="video/webm"/>  
+			<source src="video/12.mp4" type="video/mp4"/>  
+		</video>
 					
-					<div id="navbar">
-						<header>
+		<!--this image stretches exactly to the browser width/height and lies behind the video-->	
+		<div id="bodyDummy">
+				
+		<!--navigation bar-->
+		<div id="navbar">
+			<header>	
+				<nav>
+					<a href='#' id = "logo" underline ="none">
+						<img src='images/Logotop.png' class='logo' style="height:45px;margin-top:-7px;margin-bottom:-7px;padding:0;">
+						St. Monica's
+					</a>
 						
-							<!--Naviagtion Bar-->
-							<nav>
-							
-							<a href='#' id = "logo" underline ="none">
-								<img src='images/Logotop.png' class='logo' style="height:45px;margin-top:-7px;margin-bottom:-7px;padding:0;">
-
-								St. Monica's
-									</a>
-								
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#About">About Us</a></li>
+						<li><a href="#div2">Staff</a></li>
+						<li><a href="#div6">Support Links</a></li>
+						<li>
+							<a href="#">More<span class="caret"></span></a>
+							<div id="drop">
 								<ul>
-									<li><a href="#">Home</a></li>
-									<li><a href="#About">About Us</a></li>
-									<li><a href="#div2">Staff</a></li>
-									<li><a href="#div6">Support Links</a></li>
-
-									<li>
-										<a href="#">More<span class="caret"></span></a>
-										<div id="drop">
-											<ul>
-												<li><a href="#div3">Events</a></li>
-												<li><a href="#div4">Volunteer opportunities</a></li>
-												<li><a href="#div5">Gallery</a></li>
-											</ul>
-										</div>
-									</li>
-
-									<li><a href="#div7">Contact Us</a></li>
-									
+									<li><a href="#div3">Events</a></li>
+									<li><a href="#div4">Volunteer opportunities</a></li>
+									<li><a href="#div5">Gallery</a></li>
 								</ul>
-
-							</nav><img id="menu-icon" src="images/menu-icon.png" style="height:40px;position:absolute;right:0px;margin-top:-50px;"></img>
-						
-						</header>
-
-					</div>
-				<div id = "content">
-					<div id = "About">
-						<img class="centerimg" src="images/About.png" alt ="About us" style="width:25%;"></img>
-							
-								<p class ="divcont" style ="float:left;">
-									St. Monica's Youth Centre was founded in 1967 
-									to cater for the needs of the children of 
-									Families moved to the area during the large 
-									clear-out of tenement houses in Dublin City in the early 
-									'60's.
-
-									It was founded by local people assisted by
-									Volunteers from the Society of St. Vincent De Paul.
-
-									It was located in a 200 year-old Vicarage which was
-									so badly damaged by fire in 1982 that the decision
-									was made to build new premises.
-
-									The activities of the centre were carried on in
-									temporary premises until the new building was
-									ready for occupation in 1988.
-
-									St. Monica's is recognised as one of the biggest
-									and most innovative Youth Clubs in Dublin and
-									caters for more than 200 children with a variety
-									of activities i.e: boxing, basketball, drama and dance,
-									we also have traditional activities such as:
-									table-tennis, pool, snooker, swimming,
-									kayaking, canoeing, bowls, football, day trips and holidays.
-
-									We have also had groups on exchange trips to
-									European Countries which return trips to our centre.
-								</p>
-								<br/>
-								  	<iframe width="80%" height="55%" frameborder="0" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=St%20Monicas%20Youth%20Centre%2C%20Dublin%2C%20Ireland&key=AIzaSyA8ptaiCE9jpuhDBbDNjsv23v7qWG6dF3g"></iframe>	
-
 							</div>
+						</li>
+						<li><a href="#div7">Contact Us</a></li>
+					</ul>
+					
+				</nav><img id="menu-icon" src="images/menu-icon.png" style="height:40px;position:absolute;right:0px;margin-top:-50px;"></img>
+			</header>
+		</div><!--navigation bar end-->
+
+		<!--content-->
+		<div id = "content">
+			<!--about us section-->
+			<div id = "About">
+				<img class="centerimg" src="images/About.png" alt ="About us" style="width:25%;"></img>
+					<p class ="divcont" style ="float:left;">
+						St. Monica's Youth Centre was founded in 1967 
+						to cater for the needs of the children of 
+						Families moved to the area during the large 
+						clear-out of tenement houses in Dublin City in the early 
+						'60's.
+
+						It was founded by local people assisted by
+						Volunteers from the Society of St. Vincent De Paul.
+
+						It was located in a 200 year-old Vicarage which was
+						so badly damaged by fire in 1982 that the decision
+						was made to build new premises.
+
+						The activities of the centre were carried on in
+						temporary premises until the new building was
+						ready for occupation in 1988.
+
+						St. Monica's is recognised as one of the biggest
+						and most innovative Youth Clubs in Dublin and
+						caters for more than 200 children with a variety
+						of activities i.e: boxing, basketball, drama and dance,
+						we also have traditional activities such as:
+						table-tennis, pool, snooker, swimming,
+						kayaking, canoeing, bowls, football, day trips and holidays.
+
+						We have also had groups on exchange trips to
+						European Countries which return trips to our centre.
+					</p>
+					<br/>
+					
+				<!--google maps plugin-->
+				<iframe width="80%" height="55%" frameborder="0" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=St%20Monicas%20Youth%20Centre%2C%20Dublin%2C%20Ireland&key=AIzaSyA8ptaiCE9jpuhDBbDNjsv23v7qWG6dF3g"></iframe>
+			</div>
 					
 					<div id = "div2" class ="div2">
 						<h1>Staff</h1>
