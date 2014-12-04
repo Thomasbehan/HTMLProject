@@ -1,3 +1,5 @@
+<!--COMMENTS IN CAPTIALS WITH * ARE STUFF WE HAVEN'T STARTED/FINISHED YET-->
+<!--need to sort out classes/ids for all the text sections-->
 <!--index.html-->
 <!--@author Thomas Behan and Kevin Maher-->
 <!--9th Nov 2014-->
@@ -17,38 +19,37 @@
 		<!--smooth scroll js-->
 		<script type="text/javascript" src="js/scroll.js"></script>
 		<!--gallery js-->
-			<!-- bjqs.css contains the *essential* css needed for the slider to work -->
+			<!--bjqs.css contains the essential css needed for the slider to work-->
 			<link rel="stylesheet" href="bjqs.css">
-			<!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
+			<!--demo.css contains additional styles--> 
 			<link rel="stylesheet" href="demo.css">
-			<!-- load jQuery and the plugin -->
+			<!-- load jquery and the plugin -->
 			<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 			<script src="js/bjqs-1.3.min.js"></script>
 	
 	</head>
 	<body>
 		
-		<!--scrolling-->
+		<!--.scrolling-->
 		<a href="#bodyDummy" class="scrollToTop"></a>
 		
-		<!--background video-->
+		<!--#background video-->
 		<video id="bgVideo" autoplay loop muted>
 			<source src="video/12.webm" type="video/webm"/>  
 			<source src="video/12.mp4" type="video/mp4"/>  
 		</video>
 					
-		<!--this image stretches exactly to the browser width/height and lies behind the video-->	
+		<!--#this image stretches exactly to the browser width/height and lies behind the video-->	
 		<div id="bodyDummy">
 				
-		<!--navigation bar-->
+		<!--#navigation bar-->
 		<div id="navbar">
-			<header>	
+			<header>
 				<nav>
 					<a href='#' id = "logo" underline ="none">
 						<img src='images/Logotop.png' class='logo' style="height:45px;margin-top:-7px;margin-bottom:-7px;padding:0;">
 						St. Monica's
 					</a>
-						
 					<ul>
 						<li><a href="#">Home</a></li>
 						<li><a href="#About">About Us</a></li>
@@ -66,148 +67,116 @@
 						</li>
 						<li><a href="#div7">Contact Us</a></li>
 					</ul>
-					
-				</nav><img id="menu-icon" src="images/menu-icon.png" style="height:40px;position:absolute;right:0px;margin-top:-50px;"></img>
+				</nav>
+				<!--#hamburger icon-->
+				<img id="menu-icon" src="images/menu-icon.png" style="height:40px;position:absolute;right:0px;margin-top:-50px;"></img>
 			</header>
-		</div><!--navigation bar end-->
+		</div><!--/#navigation bar-->
 
-		<!--content-->
+		<!--#content-->
 		<div id = "content">
-			<!--about us section-->
+			
+			<!--#about us div-->
 			<div id = "About">
+				<!--.about us icon-->
 				<img class="centerimg" src="images/About.png" alt ="About us" style="width:25%;"></img>
-					<p class ="divcont" style ="float:left;">
-						St. Monica's Youth Centre was founded in 1967 
-						to cater for the needs of the children of 
-						Families moved to the area during the large 
-						clear-out of tenement houses in Dublin City in the early 
-						'60's.
-
-						It was founded by local people assisted by
-						Volunteers from the Society of St. Vincent De Paul.
-
-						It was located in a 200 year-old Vicarage which was
-						so badly damaged by fire in 1982 that the decision
-						was made to build new premises.
-
-						The activities of the centre were carried on in
-						temporary premises until the new building was
-						ready for occupation in 1988.
-
-						St. Monica's is recognised as one of the biggest
-						and most innovative Youth Clubs in Dublin and
-						caters for more than 200 children with a variety
-						of activities i.e: boxing, basketball, drama and dance,
-						we also have traditional activities such as:
-						table-tennis, pool, snooker, swimming,
-						kayaking, canoeing, bowls, football, day trips and holidays.
-
-						We have also had groups on exchange trips to
-						European Countries which return trips to our centre.
-					</p>
-					<br/>
-					
+				<!--.about us content-->
+				<p class ="divcont" style ="float:left;">
+					St. Monica's Youth Centre was founded in 1967 to cater for the needs of the children of families moved to the area during the large clear-out of tenement houses in Dublin City in the early '60's.
+					It was founded by local people assisted by volunteers from the Society of St. Vincent De Paul.
+					It was located in a 200 year-old Vicarage which was so badly damaged by fire in 1982 that the decision was made to build new premises.
+					The activities of the centre were carried on in temporary premises until the new building was ready for occupation in 1988.
+					St. Monica's is recognised as one of the biggest and most innovative Youth Clubs in Dublin and caters for more than 200 children with a variety of activities i.e: boxing, basketball, drama and dance, we also have traditional activities such as: table-tennis, pool, snooker, swimming, kayaking, canoeing, bowls, football, day trips and holidays.
+					We have also had groups on exchange trips to European Countries which return trips to our centre.
+				</p>
+				<br/>	
 				<!--google maps plugin-->
 				<iframe width="80%" height="55%" frameborder="0" style="border:0;" src="https://www.google.com/maps/embed/v1/place?q=St%20Monicas%20Youth%20Centre%2C%20Dublin%2C%20Ireland&key=AIzaSyA8ptaiCE9jpuhDBbDNjsv23v7qWG6dF3g"></iframe>
-			</div>
+			</div><!--/#about us div-->
 					
-					<div id = "div2" class ="div2">
-						<h1>Staff</h1>
-									<p>
-									St. Monica's Youth Centre was founded in 1967 
-									to cater for the needs of the children of 
-									Families moved to the area during the large 
-									clear-out of tenement houses in Dublin City in the early 
-									'60's.
-									</p>
-									
-									<p>
-									Our staff are dedicated and hard working! You can view staff profiles below.
-									</p>
-									
-									
-									
-									<!--JQuery Slider-->
-							<!--<h2>Event Slideshow</h2>-->
-
-								<!--  Outer wrapper for presentation only, this can be anything you like -->
-								<div id="banner-slide1">
-
-								<!-- start Basic Jquery Slider -->
-								<ul class="bjqs">
-								  <li><img src="img/banner01.jpg" title="John"></li>
-								  <li><img src="img/banner02.jpg" title="Mary"></li>
-								  <li><img src="img/banner03.jpg" title="Joseph"></li>
-								  <li><img src="img/4.jpg" title="Jack"></li>
-								  <li><img src="img/5.jpg" title="Gill"></li>
-								  <li><img src="img/6.jpg" title="Kevin"></li>
-								  <li><img src="img/7.jpg" title="Thomas"></li>
-								  <li><img src="img/8.jpg" title="Sean"></li>
-								  <li><img src="img/9.jpg" title="Kate"></li>
-								  <li><img src="img/10.jpg" title="Holly"></li>
-								</ul>
-								<!-- end Basic jQuery Slider -->
-
-							  </div>
-							  <!-- End outer wrapper -->
-
+			<!--#staff div-->
+			<div id = "div2" class ="div2">
+				<!--.staff content-->
+				<p class ="divcont" style ="float:left;">
+					<h1>Staff</h1>
+					<p>St. Monica's Youth Centre was founded in 1967 to cater for the needs of the children of families moved to the area during the large clear-out of tenement houses in Dublin City in the early '60's.</p>
+					<p>Our staff are dedicated and hard working! You can view our staff profiles below.</p>
+				</p>
 							
-							
-					</div>	
-					
-					<div id = "div6">
-						<h1>Support Links</h1>
-							<p>
-							We have provided support links
-							</p>
-
-	
-			<div class="row">
-				<div class="col-md-offset-2 col-md-8">
-					<div class="row">
-						<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-title="People walking down stairs" class="col-sm-4" >
-							<img src="img/4.jpg" class="img-responsive">
-						</a>
-						<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-title="Man getting wet" class="col-sm-4">
-							<img src="img/4.jpg" class="img-responsive">
-						</a>
-						<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-title="Someone lost their dress" class="col-sm-4">
-							<img src="img/4.jpg" class="img-responsive">
-						</a>
-					</div>
-					<div class="row">
-						<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-footer="Big ass waterfall- using footer instead of title" class="col-sm-4">
-							<img src="img/4.jpg" class="img-responsive">
-						</a>
-						<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-title="Cool bottle" data-footer="Now fill it with whiskey" class="col-sm-4">
-							<img src="img/4.jpg" class="img-responsive">
-						</a>
-						<a href="http://www.facebook.com" data-toggle="lightbox" class="col-sm-4">
-							<img src="img/4.jpg" class="img-responsive">
-						</a>
-					</div>
-					<div class="row">
-						<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-footer="Big ass waterfall- using footer instead of title" class="col-sm-4">
-							<img src="img/4.jpg" class="img-responsive">
-						</a>
-						<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-title="Cool bottle" data-footer="Now fill it with whiskey" class="col-sm-4">
-							<img src="img/4.jpg" class="img-responsive">
-						</a>
-						<a href="http://www.facebook.com" data-toggle="lightbox" class="col-sm-4">
-							<img src="img/4.jpg" class="img-responsive">
-						</a>
+				<!--#staff profiles slider/*COROUSEL*--><!--#jquery slider-->
+				<div id="banner-slide1">
+					<!--.start basic jquery slider-->
+					<ul class="bjqs">
+						<!--slider content-->
+						<li><img src="img/banner01.jpg" title="John"></li>
+						<li><img src="img/banner02.jpg" title="Mary"></li>
+						<li><img src="img/banner03.jpg" title="Joseph"></li>
+						<li><img src="img/4.jpg" title="Jack"></li>
+						<li><img src="img/5.jpg" title="Gill"></li>
+						<li><img src="img/6.jpg" title="Kevin"></li>
+						<li><img src="img/7.jpg" title="Thomas"></li>
+						<li><img src="img/8.jpg" title="Sean"></li>
+						<li><img src="img/9.jpg" title="Kate"></li>
+						<li><img src="img/10.jpg" title="Holly"></li>
+					</ul><!-- end Basic jQuery Slider -->
+				</div><!--end outer wrapper-->
+			</div><!--/#staff div-->	
+			
+			<!--#support links div-->
+			<div id = "div6">
+				<!--.support links content-->
+				<!--*NEED TO ADD A DIV HERE FOR CONTENT (IN EACH SECTION)*-->
+				<p class ="divcont" style ="float:left;">
+					<h1>Support Links</h1>
+					<p>Below are links to many useful support services such as our Facebook and Twitter pages.</p>
+				<!--.support links image-links-->
+				<div class="row">
+					<div class="col-md-offset-2 col-md-8">
+						<div class="row">
+							<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-title="People walking down stairs" class="col-sm-4" >
+								<img src="img/4.jpg" class="img-responsive">
+							</a>
+							<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-title="Man getting wet" class="col-sm-4">
+								<img src="img/4.jpg" class="img-responsive">
+							</a>
+							<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-title="Someone lost their dress" class="col-sm-4">
+								<img src="img/4.jpg" class="img-responsive">
+							</a>
+						</div>
+						<div class="row">
+							<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-footer="Big ass waterfall- using footer instead of title" class="col-sm-4">
+								<img src="img/4.jpg" class="img-responsive">
+							</a>
+							<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-title="Cool bottle" data-footer="Now fill it with whiskey" class="col-sm-4">
+								<img src="img/4.jpg" class="img-responsive">
+							</a>
+							<a href="http://www.facebook.com" data-toggle="lightbox" class="col-sm-4">
+								<img src="img/4.jpg" class="img-responsive">
+							</a>
+						</div>
+						<div class="row">
+							<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-footer="Big ass waterfall- using footer instead of title" class="col-sm-4">
+								<img src="img/4.jpg" class="img-responsive">
+							</a>
+							<a href="http://www.facebook.com" data-toggle="lightbox" data-gallery="multiimages" data-title="Cool bottle" data-footer="Now fill it with whiskey" class="col-sm-4">
+								<img src="img/4.jpg" class="img-responsive">
+							</a>
+							<a href="http://www.facebook.com" data-toggle="lightbox" class="col-sm-4">
+								<img src="img/4.jpg" class="img-responsive">
+							</a>
+						</div>
 					</div>
 				</div>
+			</div><!--/#support links div-->
+			
+			<!--#events div-->			
+			<div id = "div3">
+				<!--.events content-->
+				<h1>Events</h1>
+				<p id="divcont">This is our events guide! Keep an eye on here and get the latest on activities and events we are planning and doing.</p>
+				<!--google calendar plugin-->
+				<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;height=475&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=stmonicassite%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="85%" height="475" frameborder="0" scrolling="no"></iframe>
 			</div>
-			</div>
-					
-					<div id = "div3">
-						<h1>Events</h1>
-
-						<p id="divcont">This is our events guide! Keep an eye on here and get the latest on activities and events we are planning and doing.</p>
-							<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;height=475&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=stmonicassite%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="85%" height="475" frameborder="0" scrolling="no"></iframe>
-
-					</div>
 					
 					
 					<div id = "div4">
