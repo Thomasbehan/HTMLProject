@@ -12,7 +12,7 @@
 *Padding at top of/around each div
 *HTML5 section tags around each div
 *Remove horizontal scroll bar
-*extra:mave nav bar fixed while scrolling-->
+*extra:make nav bar fixed while scrolling-->
 
 <!--index.html-->
 <!--@authors Thomas Behan and Kevin Maher-->
@@ -46,13 +46,18 @@
 		
 		<!--.scrolling-->
 		<a href="#bodyDummy" class="scrollToTop"></a>
-		
+		<!-- Background Video Text-->
+		<div id="vidtext">
+			<h1 class = "videotxt1">St. Monica's</h1>
+			<h3 class = "videotxt2">Youth Resource Centre</h3>	
+		</div>	
 		<!--#background video-->
-		<video id="bgVideo" autoplay loop muted>
+		<video id="bgVideo" poster="white" autoplay loop muted>
 			<source src="video/12.webm" type="video/webm"/>  
 			<source src="video/12.mp4" type="video/mp4"/>  
+			<source src="video/12.ogg" type="video/ogg"/> 
 		</video>
-					
+		
 		<!--#this image stretches exactly to the browser width/height and lies behind the video-->	
 		<div id="bodyDummy">
 				
@@ -122,7 +127,19 @@
 						<p class="divcont">
 						staff member
 						</p>
+						<p class="divcont"class ="staff">
+						email:
+						STAFF@stmonicas.ie
+						tel:
+						(01) 84647393
+						</p>
+					</div>
+					<div class="staffmember">
+						<img src="images/staff1.png" alt = "staff" class="staffimg"></img>
 						<p class="divcont">
+						staff member
+						</p>
+						<p class="divcont"class ="staff">
 						email:STAFF@stmonicas.ie
 						tel:(01) 84647393
 						</p>
@@ -132,7 +149,7 @@
 						<p class="divcont">
 						staff member
 						</p>
-						<p class="divcont">
+						<p class="divcont"class ="staff">
 						email:STAFF@stmonicas.ie
 						tel:(01) 84647393
 						</p>
@@ -142,7 +159,7 @@
 						<p class="divcont">
 						staff member
 						</p>
-						<p class="divcont">
+						<p class="divcont" class ="staff">
 						email:STAFF@stmonicas.ie
 						tel:(01) 84647393
 						</p>
@@ -152,17 +169,7 @@
 						<p class="divcont">
 						staff member
 						</p>
-						<p class="divcont">
-						email:STAFF@stmonicas.ie
-						tel:(01) 84647393
-						</p>
-					</div>
-					<div class="staffmember">
-						<img src="images/staff1.png" alt = "staff" class="staffimg"></img>
-						<p class="divcont">
-						staff member
-						</p>
-						<p class="divcont">
+						<p class="divcont"class ="staff">
 						email:STAFF@stmonicas.ie
 						tel:(01) 84647393
 						</p>

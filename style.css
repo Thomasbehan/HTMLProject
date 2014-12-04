@@ -2,13 +2,36 @@
 /*@author Thomas Behan and Kevin Maher*/
 /*9th Nov 2014*/
 body { 
+	text-align:center;
 	width:100%; 
 	height:100%; 
 	margin:0; 
 	padding:0; 
 	Background-color:white;
 }
-
+#vidtext{
+	position:absolute;
+	z-index:9999;
+	top:35%;
+	left:32%;
+	margin-right:auto;
+	margin:0 auto;
+	text-align:center;
+}
+.videotxt1{
+	text-align:center;
+	font-family: "Comic Sans MS", serif;
+	color:rgb(186, 186, 186)!important;
+	font-size:50px;
+	text-shadow: 1px 1px gray;
+}
+.videotxt2{
+	text-align:center;
+	font-family: "Comic Sans MS", serif;
+	color:rgb(186, 186, 186)!important;
+	font-size:40px;
+	text-shadow: 1px 1px gray;
+}
 .divcont{
 	padding:5px;
 	font-size:15px;
@@ -414,6 +437,10 @@ nav {
 
 		/*small- Medium Screens*/
 @media only screen and (max-width: 1085px) {
+.staff{
+	font-size:8px!important;
+}
+/*
 #bgVideo{
     position: absolute;
     left: 0;
@@ -439,6 +466,7 @@ nav {
 /*Make dropdown links appear inline*/
 	/*
 	*/
+	
 
 
 
@@ -447,7 +475,9 @@ nav {
 		
 		/*Smaller Screens*/
 @media handheld, only screen and (max-width: 1000px) {
-
+#vidtext{
+	display:none;
+}
 #bgVideo{
     position: absolute;
     top: 0;
