@@ -164,7 +164,6 @@ h2{
 #navbar {
 	margin:0 auto;
 	width:100%;
-	position: static;
 	text-align:center;
 	background: rgb(255, 255, 255);
 
@@ -290,9 +289,10 @@ h3,h1{
 	color:gray;
 }
 header {
-margin-top:-7px;
+	margin-top:-7px;
 	text-align:center;
 	width:100%;
+	
 	
 }
 .scrollToTop{

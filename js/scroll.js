@@ -21,7 +21,16 @@ $(document).ready(function(){
 			$('.scrollToTop').fadeOut();
 		}
 	});
-	
+
+	//Check to see if the window is top if not then navbar will scroll with page
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').css();
+		} else {
+			$('.scrollToTop').css();
+		}
+	});
+
 	//Click event to scroll to top
 	$('.scrollToTop').click(function(){
 		$('html, body').animate({scrollTop : 0},800);
